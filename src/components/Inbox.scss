@@ -1,0 +1,15 @@
+.list.inbox {
+    padding: 0;
+    margin: 0; 
+    li {
+        display: grid;
+        grid-template-columns: 10% 10% 11fr;
+        padding: 16px;
+        &.even {
+            background-color: #ccc;
+        }
+        span {
+            text-align: left;
+        }
+    }
+}

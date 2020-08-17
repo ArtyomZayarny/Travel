@@ -1,0 +1,27 @@
+.modal{
+
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    &__content {
+        background-color: #fff;
+        width: 50%;
+        margin: 0 auto;
+        position: relative;
+        padding: 15px;
+        top: 20%;
+        border-radius: 12px;
+        form {
+            display: flex;
+            flex-direction: column;
+            .input {
+                margin-bottom: 20px;
+            }
+        }
+        .btns-area {
+            display:flex;
+            justify-content: space-between;
+        }
+    }
+}

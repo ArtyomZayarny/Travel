@@ -1,0 +1,13 @@
+.form.signUp, form.signIn {
+    .input {
+        position: relative;
+        margin-bottom: 20px;
+    }
+}
+.form.signIn {
+    span.errorMsg {
+        color: red;
+        font-size: 10px;
+        display: block;
+    }
+}
